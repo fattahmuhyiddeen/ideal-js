@@ -2,7 +2,7 @@ const chai = require('chai');
 const { isOdd } = require('../index');
 chai.should();
 
-describe('Checking is odd function', () => {
+describe('isOdd function', () => {
 
   beforeEach(() => {
     console.log('do this before every test');
@@ -20,9 +20,5 @@ describe('Checking is odd function', () => {
 
   it('returns true', () => {
     isOdd(1).should.be.true;
-  });
-
-  it('returns false', () => {
-    isOdd(4).should.equals(false);
   });
 });
