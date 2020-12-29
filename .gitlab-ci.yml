@@ -1,5 +1,14 @@
 image: node:15.4.0
 
-script:
-  - npm install
-  - npm test
+cache:
+  paths:
+  - node_modules/
+
+stages:
+  - test
+
+step1:
+  stage: test
+  script:
+    - npm install
+    - npm test
