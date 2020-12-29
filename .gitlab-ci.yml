@@ -1,0 +1,5 @@
+image: node:15.4.0
+
+script:
+  - npm install
+  - npm test
