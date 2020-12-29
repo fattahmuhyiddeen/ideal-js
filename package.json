@@ -1,0 +1,31 @@
+{
+  "name": "ideal-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --exit 'test/**/*.test.js' && ./node_modules/.bin/eslint --fix --ignore-path .gitignore ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fattahmuhyiddeen/ideal-js.git"
+  },
+  "keywords": [
+    "boiler plate",
+    "template",
+    "hello world"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fattahmuhyiddeen/ideal-js/issues"
+  },
+  "homepage": "https://github.com/fattahmuhyiddeen/ideal-js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "babel-eslint": "^10.1.0",
+    "chai": "^4.2.0",
+    "eslint": "^7.16.0",
+    "mocha": "^8.2.1"
+  }
+}
